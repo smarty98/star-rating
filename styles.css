@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.stars{
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  color: gray;
+  text-align: center;
+}
+.active{
+color: gold;
+}
